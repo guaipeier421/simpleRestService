@@ -46,7 +46,7 @@ and Maven (Download here ```https://maven.apache.org/download.cgi``` ) installed
    ```mvn clean install``` 
 
 4. Start the application: Under path 
-   ```{your project path}\simpleRestService\complete```
+   ```{your project path}\simpleRestService\simpleRestService\complete```
    use the following command
    ```java -jar target\rest-service-complete-0.0.1-SNAPSHOT.jar```
    
