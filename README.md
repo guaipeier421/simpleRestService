@@ -63,7 +63,7 @@ and Maven (Download here ```https://maven.apache.org/download.cgi``` ) installed
 4. Run ```java -jar target/rest-service-complete-0.0.1-SNAPSHOT.jar```
 5. Look for logs in the Console
   ``` "com.example.restservice.AppRunner: Fetching User Repos->com.example.restservice.testModel.OutputResponse@2e590b" ```
-   It will run 5 times and there will be a 3 sec delay in between each calls.
+   It will run 5 times and there will be a 3 seconds delay in between each calls.
 6. Remove comment for @Cacheable in OutputResponseRepositoryImpl.java and  @EnableCaching in RestServiceApplication.java
 7. Run ```mvn clean install``` and ```java -jar target/rest-service-complete-0.0.1-SNAPSHOT.jar``` again 
    and you will see that the first retrieval still takes three seconds.  However, the second and subsequent 
