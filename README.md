@@ -71,3 +71,8 @@ and Maven (Download here ```https://maven.apache.org/download.cgi``` ) installed
    and you will see that the first retrieval still takes three seconds.  However, the second and subsequent 
    times for the same user are much faster, showing that the cache is doing its job.
 
+## Next Steps (TODO):
+1. Add unit tests
+2. Add java doc for each public function and class
+  
+
