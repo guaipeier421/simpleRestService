@@ -56,8 +56,6 @@ and Maven (Download here ```https://maven.apache.org/download.cgi``` ) installed
 3. Click on "Try it out", then type "octocat" in the user name filed and click on "Execute"
 4. You should be able to see the response data in the required JSON format.
 
-5. You can also run ```curl -X 'GET' 'http://localhost:8080/repos/octocat' -H 'accept: application/json'```
-
 ## Test for caching:
 1. Comment out @Cacheable annotation in OutputResponseRepositoryImpl.java
 2. Comment out  @EnableCaching annotation in RestServiceApplication.java
