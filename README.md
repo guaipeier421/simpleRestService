@@ -40,7 +40,7 @@ and Maven (Download here ```https://maven.apache.org/download.cgi``` ) installed
    ```https://github.com/guaipeier421/simpleRestService.git```
 
 2. Navigate to the project directory
-  ```cd {your project path}\simpleRestService\complete```
+  ```cd {your project path}\simpleRestService\simpleRestService\complete```
 
 3. Install Dependencies:
    ```mvn clean install``` 
